@@ -14,4 +14,7 @@ public class Minuman2 {
          pendapatan=harga*jumlah;
          return pendapatan;
      }
+    void cetakpendapatan(){
+         System.out.println("Pendapatannya adalah :"+hitungPendapatan());
+     }
 }

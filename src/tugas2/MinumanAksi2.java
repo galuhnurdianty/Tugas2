@@ -10,5 +10,6 @@ public class MinumanAksi2 {
         n1.cetakInfo();
         System.out.println("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
         System.out.println("Hasil Pendapatan     ="+n1.hitungPendapatan());
+        n1.cetakpendapatan();
     }
 }
