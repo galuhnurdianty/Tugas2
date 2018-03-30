@@ -8,4 +8,10 @@ public class Minuman2 {
     System.out.println("Harga Minuman           :"+harga);
     System.out.println("Jumlah Minuman Terjual  :"+jumlah);
     }
+    
+    double hitungPendapatan(){
+         double pendapatan;
+         pendapatan=harga*jumlah;
+         return pendapatan;
+     }
 }
