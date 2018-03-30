@@ -2,6 +2,11 @@ package tugas2;
 public class Minuman2 {
     double harga;
     double jumlah;
+
+    public Minuman2() {
+        harga=15000;
+        jumlah=20;
+    }
     
     void cetakInfo(){
     System.out.println("==================================");        
