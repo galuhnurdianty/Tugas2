@@ -6,5 +6,7 @@ public class MinumanAksi2 {
         System.out.println("    |MENGHITUNG PENDAPATAN|");
         n1.harga = 17000;
         n1.jumlah = 10;
+        
+        n1.cetakInfo();
     }
 }
