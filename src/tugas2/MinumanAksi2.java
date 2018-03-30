@@ -11,5 +11,14 @@ public class MinumanAksi2 {
         System.out.println("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
         System.out.println("Hasil Pendapatan     ="+n1.hitungPendapatan());
         n1.cetakpendapatan();
+        
+        Minuman2 n2 = new Minuman2();
+        n2.cetakInfo();
+        n2.cetakpendapatan();
+        
+        Minuman2 n3 = new Minuman2(10000,22);
+        n3.cetakInfo();
+        n3.cetakpendapatan();
+        System.out.println("==================================");
     }
 }

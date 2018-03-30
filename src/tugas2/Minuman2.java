@@ -7,6 +7,11 @@ public class Minuman2 {
         harga=15000;
         jumlah=20;
     }
+
+    public Minuman2(double harga, double jumlah) {
+        this.harga = harga;
+        this.jumlah = jumlah;
+    }
     
     void cetakInfo(){
     System.out.println("==================================");        
